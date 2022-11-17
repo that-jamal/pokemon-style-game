@@ -113,7 +113,7 @@ class Monster extends Sprite {
   }
 
   faint() {
-    document.querySelector('#dialogueBox').innerHTML = this.name + ' fainted!'
+    document.querySelector('#dialogueBox').innerHTML = 'liten isak' + ' fainted!'
     gsap.to(this.position, {
       y: this.position.y + 20
     })
@@ -127,7 +127,7 @@ class Monster extends Sprite {
   attack({ attack, recipient, renderedSprites }) {
     document.querySelector('#dialogueBox').style.display = 'block'
     document.querySelector('#dialogueBox').innerHTML =
-      this.name + ' used ' + attack.name
+      this.name + ' used ' + 'phone'
 
     let healthBar = '#enemyHealthBar'
     if (this.isEnemy) healthBar = '#playerHealthBar'

@@ -98,7 +98,7 @@ charactersMap.forEach((row, i) => {
             hold: 60
           },
           scale: 3,
-          dialogue: ['My bones hurt.']
+          dialogue: ['sup loser there could be a isak in the grass keep ur eyes open.']
         })
       )
     }
